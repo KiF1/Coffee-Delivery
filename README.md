@@ -13,6 +13,7 @@
 - Usa a context API para compatilhar os estados entre components, como por exemplo os cafés selecionados e suas respectivas quantidades a serem comprados.
 - Utiliza a Reack-hook-forms para gerenciar os estados de dados no formulário.
 - Utiliza o conceito de rotas no react para tornar a navegabilidade nas páginas mais simples.
+- Utiliza o useEffect para salvar os coofes do carrinho na memória local com localStorage.
 
 
 ## Gostou do meu projeto? :D Entre em contato comigo! 
