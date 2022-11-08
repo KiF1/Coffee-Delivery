@@ -7,7 +7,7 @@
 - Ler o valor total e fazer o valor variar a depender da quantidade de itens aoo carrinho.
 
 ## Descrição:
-- Esse é um projeto desenvolvido como desafio do curso da Rocketseat, onde visa colocar em prática os conhecimentos em React juntamente com Typescript, sendo estes aplicando o conceito de Context.API como tabém a validação com formulário com ZOD e a manipulação de dados de formulário pela bblioteca React-Hook-Form.
+- Esse é um projeto desenvolvido como desafio do curso da Rocketseat, onde visa colocar em prática os conhecimentos em React juntamente com Typescript, sendo estes aplicando o conceito de Context.API como tabém a validação com formulário com ZOD e a manipulação de dados de formulário pela biblioteca React-Hook-Form. Além de todos esses elementos e bibliotecas, utiliza o React-Router-Dom para facilitar a navegabilidade do usuário. 
 - O projeto é desenvolvido com styled-components onde visa em tornar mais simples a estilização dos components pela mudança de estado.
 - Utiliza a biblioteca Zod para validação de formulários.
 - Usa a context API para compatilhar os estados entre components, como por exemplo os cafés selecionados e suas respectivas quantidades a serem comprados.
