@@ -14,6 +14,9 @@ export const CoffeeCartCardContainer = styled.div`
     display: flex;
     align-items: center;
     gap: 1.25rem;
+    @media (max-width: 768px){
+      width: 70%;
+    }
 
     img {
       width: 4rem;
@@ -24,6 +27,9 @@ export const CoffeeCartCardContainer = styled.div`
   > p {
     align-self: flex-start;
     font-weight: 700;
+    @media (max-width: 768px){
+      font-size: 0.85rem;
+    }
   }
 `;
 

@@ -19,6 +19,10 @@ export const TitleText = styled.h1<TitleTextProps>`
   font-family: ${({ theme }) => theme.fonts.title};
   line-height: 130%;
   font-weight: ${({ weight }) => weight ?? 800};
+  @media(max-width: 768px) {
+    max-width: 85%;
+    margin: auto;
+  }
 `;
 
 export const RegularText = styled.p<RegularTextProps>`
@@ -27,4 +31,14 @@ export const RegularText = styled.p<RegularTextProps>`
     theme.textSizes[`text-regular-${size ?? "m"}`]};
   line-height: 130%;
   font-weight: ${({ weight }) => weight ?? 400};
+  @media(max-width: 768px) {
+    max-width: 85%;
+    margin: auto;
+    font-size: 0.75rem !important;
+  }
+
+  @media(max-width: 500px) {
+    font-size: ${({ theme, size }) =>
+    theme.textSizes[`title-title-${size ?? "xs"}`]};
+  }
 `;
