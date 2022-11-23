@@ -5,6 +5,10 @@ export const OrderConfirmedContainer = styled.div`
   flex-direction: column;
   gap: 2.5rem;
   margin-top: 5rem;
+  @media (max-width: 768px) {
+      width: 85%;
+      margin: auto;
+    }
 
   h1 {
     color: ${({ theme }) => theme.colors["brand-yellow-dark"]};
@@ -14,6 +18,13 @@ export const OrderConfirmedContainer = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+      img{
+        width: 90%;
+      }
+    }
   }
 `;
 
@@ -26,6 +37,9 @@ export const OrderDetailsContainer = styled.div`
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  @media (max-width: 768px) {
+    width: 85%;
+  }
 
   &::before {
     content: "";
