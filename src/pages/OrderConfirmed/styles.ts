@@ -38,7 +38,7 @@ export const OrderDetailsContainer = styled.div`
   flex-direction: column;
   gap: 2rem;
   @media (max-width: 768px) {
-    width: 85%;
+    min-width: 85%;
   }
 
   &::before {
