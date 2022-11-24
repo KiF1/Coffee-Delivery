@@ -17,7 +17,7 @@
 
 
 ## Apresentação do Pojeto:
-- <img src="./delivery.gif">
+<img src="./delivery.gif">
 
 ## Gostou do meu projeto? :D Entre em contato comigo! 
 - [Linkedin](https://www.linkedin.com/in/abner-santos-b195b8228/) <br/>
